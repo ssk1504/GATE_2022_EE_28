@@ -1,0 +1,60 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{pgf}
+\usepackage{lmodern}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11054 -  Sai Krishna Shanigarapu$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+\section*{Gate EE 2022}
+28. \hspace{2pt}The network shown below has a resonant frequency of 150 kHz and bandwidth of 600
+Hz. The Q-factor of the network is \rule{1cm}{0.15mm}\\
+(rounded off to one decimal place).\\
+\hfill(GATE 2022 EC)\\
+\begin{figure}[ht]
+  \centering
+  %\begin{adjustbox}{width=\columnwidth}
+      \input{figs/ckt1}
+  %\end{adjustbox}
+  \caption{Circuit 1}
+\end{figure}\\
+\solution\\
+
+\begin{table}[ht]
+    \centering
+    \input{tables/table1}
+    \caption{Parameters}
+    \label{tab:tab1_gate_ee_2022_28_054}
+\end{table}
+%Using Table \ref{tab:tab1_gate_ee_2022_28_054},
+\begin{align}
+    Q &= \frac{f_0}{B}\\
+    &=\frac{150 \text{ x } 10^3}{600}\\
+    &= 250
+\end{align}
+
+$\therefore$ Q-factor is 250
+
+\end{document}
